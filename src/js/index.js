@@ -1,4 +1,4 @@
-require('./lib/vendor/pixi.js');
-require('./lib/vendor/phaser.js');
+require('pixi');
+require('p2');
+require('phaser');
 require('./game.js');
-

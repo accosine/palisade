@@ -1,7 +1,7 @@
-var init = require("../init");
-var preload = require("../preload");
-var create = require("../create");
-var update = require("../update");
+var init = require("./init");
+var preload = require("./preload");
+var create = require("./create");
+var update = require("./update");
 
 function alpha(game) {
   this.spinner = null;

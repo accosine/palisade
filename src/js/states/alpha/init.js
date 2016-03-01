@@ -1,4 +1,4 @@
-var minion = require("../lib/minion");
+var minion = require('../../lib/minion');
 
 var init = function init() {
   var box = minion.drawRect(this);
@@ -9,4 +9,3 @@ var init = function init() {
 };
 
 module.exports = init;
-

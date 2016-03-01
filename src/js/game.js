@@ -1,6 +1,5 @@
 var game = new Phaser.Game(800, 600);
-var alpha = require("./game/states/alpha");
+var states = require('./states');
 
-game.state.add('Alpha', alpha);
+game.state.add('Alpha', states.alpha);
 game.state.start('Alpha');
-
