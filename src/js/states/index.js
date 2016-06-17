@@ -1,3 +1,5 @@
+const alpha = require('./alpha');
+
 module.exports = {
-  alpha: require('./alpha')
+  alpha,
 };

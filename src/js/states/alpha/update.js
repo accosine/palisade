@@ -1,4 +1,4 @@
-function update() {};
+function update() {}
 
 module.exports = update;
 

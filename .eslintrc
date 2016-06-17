@@ -1,15 +1,16 @@
 {
-  "extends": "airbnb/base",
+  "extends": "airbnb-base",
   "env": {
     "browser": true,
     "es6": true
   },
+  "settings": {
+    "import/resolver": "webpack"
+  },
   "globals": {
-      "Phaser": false
+    "Phaser": false
   },
   "rules": {
-    "comma-dangle": 0,
-    "spaced-comment": 0,
     "no-console": 0,
     "id-length": [2, {"exceptions": ["x", "y", "i", "j"]}]
   },

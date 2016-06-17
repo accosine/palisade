@@ -14,14 +14,6 @@ module.exports = {
     filename: "bundle.js"
   },
 
-  // module: {
-    // loaders: [
-      // { test: /pixi.js/, loader: "script" },
-      // { test: /phaser.js/, loader: "script" },
-      // { test: /main.js/, loader: "script" }
-    // ]
-  // }
-
   module: {
     loaders: [
       { test: /pixi\.js/, loader: 'expose?PIXI' },

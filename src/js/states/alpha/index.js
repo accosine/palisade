@@ -1,20 +1,17 @@
-var init = require("./init");
-var preload = require("./preload");
-var create = require("./create");
-var update = require("./update");
+const init = require('./init');
+const preload = require('./preload');
+const create = require('./create');
+const update = require('./update');
 
 function alpha(game) {
   this.spinner = null;
-};
+}
 
 alpha.prototype = {
-  init: init,
-
-  preload: preload,
-
-  create: create,
-
-  update: update,
+  init,
+  preload,
+  create,
+  update,
 };
 
 module.exports = alpha;
